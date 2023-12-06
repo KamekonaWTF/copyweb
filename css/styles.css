@@ -1,0 +1,224 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body, h1, h2, h3, p, div, /* Agrega otros elementos según sea necesario */
+header {
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+}
+
+.topMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+#NPM {
+    display: flex;
+    margin-bottom: auto;
+}
+
+#heart {
+    margin-left: 30px;
+    margin-right: 20px;
+    scale: 1.25;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+nav {
+    margin-right: 40px;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding-top: 15px;
+    
+}
+
+#logo {
+    margin-top: 5px;
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    border-top: solid 1px lightgray;
+}
+
+#searchBtn, #signUpBtn, #signInBtn {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 0px 40px 0px 40px;
+}
+
+#searchBar {
+    background-image: url("../assets/img/lupa.png") ;
+    background-color: rgb(236, 236, 236);
+    background-repeat: no-repeat;
+    background-position: 25px;
+    background-size: 18px;
+    text-indent: 50px;
+    border: none;
+    width: 1000px;
+    height: 50px;
+    flex-grow: 1;
+}
+
+#searchBtn {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+#signUpBtn {
+    border: 1px solid lightgrey;
+}
+
+body {
+    background: url("../assets/img/backgoundcolours.png") no-repeat ;
+    background-size: 110%;
+}
+
+h1 {
+    padding-top: 80px;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.mainText {
+    text-align: center;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.mainText p {
+    padding: 40px;
+}
+
+#signUp {
+    background-color: #ffc329;
+    font-weight:900;
+    font-size: 16px;
+    border: none;
+    border-radius: 35px;
+    width: 230px;
+    padding: 18px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+#learnPro {
+    background-color: #cb3837;
+    font-weight:900;
+    font-size: 16px;
+    color: white;
+    border: solid white 2px;
+    border-radius: 35px;
+    width: 230px;
+    padding: 18px;
+}
+    
+.subText {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bubbleText {
+    padding: 30px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#bubbleText h2 {
+    padding-bottom: 30px;
+}
+
+#bubbles {
+    padding-top: 60px;
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    border-top: 1px solid lightgray;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 10%;
+}
+
+#npm-logo, #gh-logo {
+    width: 50px;
+}
+
+#menuBottom {
+    width: 60%;
+    margin-right: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#support, #company, #terms {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+a{
+    padding-bottom: 10px;
+}
